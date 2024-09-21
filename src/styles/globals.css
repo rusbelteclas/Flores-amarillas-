@@ -1,0 +1,17 @@
+@keyframes sway-slow {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@keyframes sway-fast {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-sway-slow {
+  animation: sway-slow 3s ease-in-out infinite;
+}
+
+.animate-sway-fast {
+  animation: sway-fast 2s ease-in-out infinite;
+}
